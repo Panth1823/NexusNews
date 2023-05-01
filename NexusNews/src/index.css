@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap);
+*{font-family: 'Noto Sans', sans-serif;}
+
+.text-center{
+    font-weight: bold;
+    opacity: 80%;
+    align-items: center;
+    text-align: center;
+    
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{width: 100%;
+height: auto;}
+.mx-3 {
+    margin-right: 1rem!important;
+    margin-left: 10vw!important;
+}
+.card-title{font-weight:500px;}
+button.btn.btn-dark {
+    box-shadow: 5px 5px 10px grey;
+}
