@@ -18,3 +18,14 @@ height: auto;}
 button.btn.btn-dark {
     box-shadow: 5px 5px 10px grey;
 }
+
+@media (max-width: 800px) {
+    .mx-3 {
+        margin-right: 0.5rem!important;
+        margin-left: 5vw!important;
+    }
+
+    button.btn.btn-dark {
+        box-shadow: 3px 3px 6px grey;
+    }
+}
