@@ -14,6 +14,7 @@ const App = () => {
       <Router>
         <Navbar />
         <LoadingBar height={3} color="#ffffff" progress={progress} />
+        <p>Learn React</p>
         <Routes>
           <Route
             exact
@@ -124,6 +125,20 @@ const App = () => {
                 pageSize={pageSize}
                 country="in"
                 category="technology"
+              />
+            }
+          ></Route>
+          <Route
+            exact
+            path="/NexusNews"
+            element={
+              <News
+                setProgress={setProgress}
+                apiKey={apiKey}
+                key="general"
+                pageSize={pageSize}
+                country="in"
+                category="general"
               />
             }
           ></Route>
